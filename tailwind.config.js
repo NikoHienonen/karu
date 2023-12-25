@@ -5,8 +5,13 @@ export default {
     extend: {
       backgroundImage: {
         hydraCastle: "url(img/hydra-castle.jpg)",
-        predator: "url(img/predator-cover.png)",
-        empire: "url(img/empire-cover.jpg)",
+        predator: "url(img/predator.png)",
+        empire: "url(img/empire.jpg)",
+        karuBand: "url(img/karu-band.jpg)",
+        rockTexture:
+          "linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(img/rock-texture.jpg)",
+        winter:
+          "linear-gradient(to right bottom, rgba(0,0,0,1), rgba(256,256,256, 0.5)), url(img/winter.jpg)",
       },
       fontFamily: {
         jost: "'Jost', sans-serif;",

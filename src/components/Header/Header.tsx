@@ -6,10 +6,9 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   const isMobile = useGetIsMobile();
-
   return (
     <header
-      className={`fixed top-0 left-1/2 -translate-x-1/2 self-center text-white flex w-full items-center justify-between p-8 ${
+      className={`absolute top-0 left-1/2 -translate-x-1/2 self-center text-white flex w-full items-center justify-between p-8 ${
         isMobile ? "flex-row-reverse" : ""
       }`}
     >

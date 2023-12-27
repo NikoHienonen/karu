@@ -3,5 +3,5 @@ import { breakPoints } from "utils/styleUtils";
 
 export function useGetIsMobile() {
   const windwoSize = useWindowSize().width;
-  return !!(windwoSize && windwoSize < breakPoints.mobile);
+  return !!(windwoSize && windwoSize < breakPoints.md);
 }

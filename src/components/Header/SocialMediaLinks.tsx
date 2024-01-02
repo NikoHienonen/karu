@@ -2,7 +2,7 @@ import { SocialMediaLink, socialMediaLinks } from "./links";
 
 const LinkComponent = ({ icon, link }: SocialMediaLink) => {
   return (
-    <li className="hover:text-yellow-300 transition-colors" key={link}>
+    <li className="hover:text-yellow-300 transition-colors duration-150" key={link}>
       <a target="_blank" href={link}>
         {icon}
       </a>

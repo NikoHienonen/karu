@@ -19,7 +19,7 @@ export const NavigationMenu = ({ isMobile }: Props) => {
   return (
     <div
       onClick={toggleMenu}
-      className="text-white hover:text-yellow-300 transition-colors"
+      className="text-white hover:text-yellow-300 transition-colors duration-150"
     >
       <button className="flex gap-2 items-center" onClick={toggleMenu}>
         {!isMobile && (
@@ -30,7 +30,7 @@ export const NavigationMenu = ({ isMobile }: Props) => {
         <BsList className="text-3xl" />
       </button>
       {menuOpen && (
-        <nav className="absolute left-0 top-0 xl:-translate-x-1/5 flex flex-col justify-center items-center w-screen h-screen backdrop-blur-xl animate-fadeIn">
+        <nav className="absolute z-50 left-0 top-0 xl:-translate-x-1/5 flex flex-col justify-center items-center w-screen h-screen backdrop-blur-xl animate-fadeIn">
           <BsXLg className="absolute text-white hover:text-yellow-400 text-4xl top-10 right-8 cursor-pointer animate-fadeIn" />
           <NavigationLinks />
           {isMobile && (

@@ -1,4 +1,4 @@
-import { MusicWrapper } from "components/MusicWrapper";
+import { MusicWrapper } from "components/Music/MusicWrapper";
 import { releases } from "data/karuReleases";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -21,11 +21,11 @@ const ReleaseComponent = ({ name, image }: ReleaseComponentProps) => {
       onMouseEnter={handleHover}
       onMouseLeave={handleHover}
     >
-      <img className="w-full md:w-4/5 lg:h-96" src={image} />
+      <img className="" src={image} />
       {showText && (
         <>
-          <div className="absolute inset-0 bg-black opacity-60"></div>
-          <div className="absolute cursor-pointer inset-0 flex items-center justify-center uppercase text-white tracking-widest text-xl">
+          <div className="absolute inset-0  bg-black opacity-60"></div>
+          <div className="absolute cursor-pointer  inset-0 flex items-center justify-center uppercase text-white tracking-widest text-xl">
             {name}
           </div>
         </>
@@ -37,7 +37,7 @@ const ReleaseComponent = ({ name, image }: ReleaseComponentProps) => {
 export const Music = () => {
   return (
     <MusicWrapper>
-      <div className="flex flex-wrap gap-5 justify-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 Z-0">
         {releases.map(({ name, img }) => (
           <ReleaseComponent name={name} image={img} />
         ))}

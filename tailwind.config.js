@@ -7,7 +7,7 @@ export default {
         hydraCastle: "url(img/hydra-castle.jpg)",
         predator: "url(img/predator.png)",
         empire: "url(img/empire.jpg)",
-        karuBand: "url(img/karu-band.jpg)",
+        karuBand: "url(img/karu-2024.jpg)",
         rockTexture:
           "linear-gradient(to right bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.2)), url(img/rock-texture.jpg)",
         winter:

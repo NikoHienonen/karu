@@ -21,7 +21,7 @@ export const releases: Release[] = [
     type: "single",
     parent: "Hydra",
     subTitle: "Single from the album 'Hydra'",
-    releaseDate: "12.4.2024",
+    releaseDate: "5.4.2024",
     img: images.hydraCover,
     lyricSample: "They run, try to hide, no one will leave alive...",
     links: {

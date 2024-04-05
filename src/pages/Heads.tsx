@@ -27,8 +27,8 @@ export const Heads = () => {
         </AlbumStoriesContainer>
         <IframesContainer
           srcs={[
-            "https://open.spotify.com/embed/track/17Ntlar0iofw9TyLlQ7W9Y?utm_source=generator",
-            "https://embed.music.apple.com/us/album/predator-single/1705377138",
+            "https://open.spotify.com/embed/track/0W8uaPHFwfDXgyDyXrCrnY?utm_source=generator",
+            "https://embed.music.apple.com/us/album/heads-of-the-hydra-ii-apex-single/1734947348",
           ]}
         />
       </AlbumContainer>

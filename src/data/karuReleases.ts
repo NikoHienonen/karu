@@ -25,9 +25,11 @@ export const releases: Release[] = [
     img: images.hydraCover,
     lyricSample: "They run, try to hide, no one will leave alive...",
     links: {
-      spotify: "",
-      appleMusic: "",
-      youtube: "",
+      spotify:
+        "https://open.spotify.com/track/0W8uaPHFwfDXgyDyXrCrnY?si=71b765c5945c4655",
+      appleMusic:
+        "https://music.apple.com/us/album/heads-of-the-hydra-ii-apex/1734947348?i=1734947349",
+      youtube: "https://www.youtube.com/watch?v=I7yfuWAsEyE",
     },
   },
   {

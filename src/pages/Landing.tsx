@@ -39,7 +39,7 @@ export const Landing = () => {
         bgName="bg-hydraCastle"
         title="The Heads of the Hydra"
         lyricSample="They run, try to hide, no one will leave alive..."
-        href="https://www.youtube.com/watch?v=VpR9dtM8LzU"
+        href="https://www.youtube.com/watch?v=I7yfuWAsEyE"
       />
       <ReleaseContainer
         bgName="bg-predator"

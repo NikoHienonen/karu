@@ -5,6 +5,11 @@ interface SongLink {
   embed: string;
 }
 
+interface Song {
+  name: string;
+  instrumental?: boolean;
+}
+
 export interface Release {
   name: string;
   type: "single" | "album" | "live";
@@ -18,33 +23,91 @@ export interface Release {
     youtube: string;
   };
   lyricSample: string;
+  songs?: Song[];
 }
 
 export const releases: Release[] = [
   {
-    name: "Heads of the Hydra",
-    type: "single",
-    parent: "Hydra",
-    subTitle: "Single from the album 'Hydra'",
-    releaseDate: "5.4.2024",
+    name: "HYDRA",
+    type: "album",
+    subTitle: "Concept album",
+    releaseDate: "12.4.2024",
     img: images.hydraCover,
     lyricSample: "They run, try to hide, no one will leave alive...",
     links: {
       spotify: {
         track:
-          "https://open.spotify.com/track/0W8uaPHFwfDXgyDyXrCrnY?si=71b765c5945c4655",
+          "https://open.spotify.com/album/3ADVSUEEbI46SsaAgKOO7w?si=WHm8u-6YQbCVm-US7vKJuQ",
         embed:
-          "https://open.spotify.com/embed/track/0W8uaPHFwfDXgyDyXrCrnY?utm_source=generator",
+          "https://open.spotify.com/embed/album/3ADVSUEEbI46SsaAgKOO7w?utm_source=generator",
       },
       appleMusic: {
-        track:
-          "https://music.apple.com/us/album/heads-of-the-hydra-ii-apex/1734947348?i=1734947349",
-        embed:
-          "https://embed.music.apple.com/us/album/heads-of-the-hydra-ii-apex-single/1734947348",
+        track: "https://music.apple.com/us/album/hydra/1734857924",
+        embed: "https://embed.music.apple.com/us/album/hydra/1734857924",
       },
       youtube: "https://www.youtube.com/watch?v=I7yfuWAsEyE",
     },
+    songs: [
+      {
+        name: "Atonement",
+        instrumental: true,
+      },
+      {
+        name: "Empire of Dust",
+      },
+      {
+        name: "Insurgent",
+      },
+      {
+        name: "Murderclaw",
+        instrumental: true,
+      },
+      {
+        name: "Church in the Deep",
+      },
+      {
+        name: "Lowered",
+        instrumental: true,
+      },
+      {
+        name: "Predator",
+      },
+      {
+        name: "Heads of the Hydra I: Ascent",
+      },
+      {
+        name: "Heads of the Hydra II: Apex",
+      },
+      {
+        name: "Heads of the Hydra III: Ashes of the Fallen",
+      },
+    ],
   },
+
+  // {
+  //   name: "Heads of the Hydra",
+  //   type: "single",
+  //   parent: "Hydra",
+  //   subTitle: "Single from the album 'Hydra'",
+  //   releaseDate: "5.4.2024",
+  //   img: images.hydraCover,
+  //   lyricSample: "They run, try to hide, no one will leave alive...",
+  //   links: {
+  //     spotify: {
+  //       track:
+  //         "https://open.spotify.com/track/0W8uaPHFwfDXgyDyXrCrnY?si=71b765c5945c4655",
+  //       embed:
+  //         "https://open.spotify.com/embed/track/0W8uaPHFwfDXgyDyXrCrnY?utm_source=generator",
+  //     },
+  //     appleMusic: {
+  //       track:
+  //         "https://music.apple.com/us/album/heads-of-the-hydra-ii-apex/1734947348?i=1734947349",
+  //       embed:
+  //         "https://embed.music.apple.com/us/album/heads-of-the-hydra-ii-apex-single/1734947348",
+  //     },
+  //     youtube: "https://www.youtube.com/watch?v=I7yfuWAsEyE",
+  //   },
+  // },
   {
     name: "Predator",
     type: "single",
@@ -113,5 +176,19 @@ export const releases: Release[] = [
       },
       youtube: "https://www.youtube.com/@karuofficial5691/videos",
     },
+    songs: [
+      {
+        name: "Desolation",
+      },
+      {
+        name: "Revolution",
+      },
+      {
+        name: "Nemesis",
+      },
+      {
+        name: "End of Days",
+      },
+    ],
   },
 ];

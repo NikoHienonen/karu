@@ -28,7 +28,7 @@ export const AlbumContainer = ({ releaseName, children }: Props) => {
         <AlbumInfo
           title={name}
           subtitle={subTitle}
-          link={links.spotify}
+          link={links.spotify.track}
           releaseDate={releaseDate}
         />
       </div>

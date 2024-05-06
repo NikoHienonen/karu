@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      gridTemplateColumns: {
+        twoToOne: "2fr 1fr",
+      },
       backgroundImage: {
         hydraCastle: "url(img/hydra-castle.jpg)",
         predator: "url(img/predator.png)",

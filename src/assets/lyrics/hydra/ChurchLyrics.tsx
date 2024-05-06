@@ -3,7 +3,6 @@ import { Break } from "components/Break";
 export const ChurchLyrics = () => {
   return (
     <div className="flex flex-col gap-1 min-w-72">
-      <h3 className="text-xl">Lyrics</h3>
       <span>Storm inside</span>
       <span>Bleeding from the</span>
       <span>Blackest seeping</span>

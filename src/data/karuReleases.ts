@@ -5,7 +5,7 @@ interface SongLink {
   embed: string;
 }
 
-interface Song {
+export interface Song {
   name: string;
   instrumental?: boolean;
 }
@@ -73,13 +73,13 @@ export const releases: Release[] = [
         name: "Predator",
       },
       {
-        name: "Heads of the Hydra I: Ascent",
+        name: "Heads of the Hydra I: Ascent", instrumental: true
       },
       {
         name: "Heads of the Hydra II: Apex",
       },
       {
-        name: "Heads of the Hydra III: Ashes of the Fallen",
+        name: "Heads of the Hydra III: Ashes of the Fallen", instrumental: true
       },
     ],
   },

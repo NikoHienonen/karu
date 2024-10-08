@@ -4,7 +4,7 @@ export const About = () => {
       <div className="flex flex-col text-center uppercase gap-2 tracking-widest text-xl font-jost flex-1 h-full items-center justify-center text-white">
         <div>Hienonen - Vocals/Production</div>
         <div>Pöyskö - Guitars/Backing vocals</div>
-        <div>Hautamäki - Guitars/Backing vocals</div>
+        <div>Taralainen - Guitars</div>
         <div>Allonen - Drums</div>
       </div>
     </div>
